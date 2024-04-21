@@ -1,5 +1,6 @@
 html{
     background-color: rgba(52, 114, 114, 0.699);
+    overflow:hidden;
 }
 .contaner{
     height: 100vh;
@@ -32,11 +33,14 @@ html{
     align-items: center;
 }
 .element4{
-    grid-area: 3 / 1 / 4 / -1;
     display: flex;
     justify-content:center;
     align-content: flex-end;
-    margin-top: 30px;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    margin-bottom: -15px;
+
 }
 .image{
     width: 90%;
