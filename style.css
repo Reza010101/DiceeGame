@@ -1,0 +1,80 @@
+html{
+    background-color: rgba(52, 114, 114, 0.699);
+}
+.contaner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 30% 30% 1fr;
+    grid-template-rows: 0.5fr 1fr 0.1fr;
+}
+.element1{
+    grid-area: 1 / 2 / 1 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score{
+    grid-area: 1 / 1 / 1 / 2;
+}
+.element2{
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element3{
+    grid-area: 2 / 3 / 3 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.element4{
+    grid-area: 3 / 1 / 4 / -1;
+    display: flex;
+    justify-content:center;
+    align-content: flex-end;
+    margin-top: 30px;
+}
+.image{
+    width: 90%;
+}
+
+
+.button-24 {
+      background: #FF4742;
+      border: 1px solid #FF4742;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 16px;
+      min-height: 40px;
+      outline: 0;
+      padding: 12px 14px;
+      text-align: center;
+      text-rendering: geometricprecision;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+}
+    
+.button-24:hover,
+.button-24:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #FF4742;
+ }
+    
+.button-24:active {
+      opacity: .5;
+}
